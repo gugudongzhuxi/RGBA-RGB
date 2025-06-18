@@ -210,8 +210,8 @@ def overlay_images(material_dir, target_dir, output_dir):
 
 # 主函数
 if __name__ == "__main__":
-    material_dir = "/data_4T/zy_GCJX_607/code/PS/素材"
-    target_dir = "/data_4T/zy_GCJX_607/code/PS/yolo测试_无标签"
-    output_dir = "/data_4T/zy_GCJX_607/code/PS/叠加结果_2"
+    material_dir = "/data_4T/code/PS/素材"
+    target_dir = "/data_4T/zcode/PS/yolo测试_无标签"
+    output_dir = "/data_4T/ode/PS/叠加结果_2"
     
     overlay_images(material_dir, target_dir, output_dir)
